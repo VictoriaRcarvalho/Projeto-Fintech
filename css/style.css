@@ -36,3 +36,127 @@ button:hover {
   background: #00a0cc; 
   transition: 1s;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.vi_1 {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.vi_2 {
+  width: 700px;
+  height: 80px;
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.9539473652839661px solid rgba(16,116,144,1);
+  border-radius: 50px;
+  box-shadow: 0px 4.53125px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+}
+.vi_3 {
+  width: 700px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  opacity: 1;
+  position: absolute;
+  top: 65%;
+  left: 27%;
+  border: 0.9539473652839661px solid rgba(16,116,144,1);
+  border-radius: 50px;
+  box-shadow: 0px 4.53125px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.vi_4 {
+  width: 60px;
+  height: 53px;
+  background: url("../images/google.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 343px;
+  left: 425px;
+  overflow: hidden;
+}
+.vi_5 {
+  width: 498px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Alef;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+
+}
+.vi_6 {
+  width: 474px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 67%;
+  left: 33.2%;
+  font-family: Alef;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+
+}
+.vi_7 {
+  width: 55px;
+  height: 53px;
+  background: url("../images/apple.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 66.4%;
+  left: 28.3%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.vi_8 {
+  width: 450px;
+  color: url("../images/v15_26.png");
+  position: absolute;
+  margin-left: 36%;
+  bottom: 10px;
+  font-size: 10px;
+  opacity: 1;
+  text-align: justify;
+}
+.vi_9 {
+  width: 100%;
+  color: rgba(16,116,144,1);
+  position: absolute;
+  top: 150px;          
+  font-family: Alef;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
