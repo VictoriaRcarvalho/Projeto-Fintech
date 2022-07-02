@@ -1,0 +1,38 @@
+
+h1 {
+  text-align: center;
+  color: rgb(253, 253, 253)!important;
+  background-color: #107490;
+  font-size: 1cm !important;
+}
+h5 {
+  position: relative;
+  top: 1cm;
+  text-align: center !important;
+}
+img {
+  position: relative;
+  top: 0.25cm;
+  left: 14cm;
+}
+
+button {
+  margin: 0%;
+  width: 8cm;
+  height: 1cm;
+  color: #fff;
+  background: #107490;
+  border-radius: 20px !important;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2cm;
+  left: 12cm;
+}
+button:hover {
+  background: #00a0cc; 
+  transition: 1s;
+}
